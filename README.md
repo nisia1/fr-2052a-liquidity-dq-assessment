@@ -74,11 +74,11 @@ Dashboard Overview (Power BI)
 
 The dashboard contains two pages structured like a real regulatory reporting review.
 
-## Tab 1 — Liquidity Overview Dashboard
+## 📊 Tab 1 — Liquidity Overview Dashboard
 
-![Liquidity Overview](images/tab1_overview_dashboard.png
-.png)
+This dashboard provides a high-level summary of total records, data quality exceptions, and liquidity bucket classification patterns.
 
+![Tab 1 Overview Dashboard](images/tab1_overview_dashboard.png)
 
 This dashboard highlights…
 
