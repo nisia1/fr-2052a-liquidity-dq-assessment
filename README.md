@@ -19,25 +19,25 @@ Excel – Initial data exploration
 
 GitHub – Project versioning & documentation
 
-Dataset Description
+Dataset Description:
 
 Synthetic dataset of 500 records representing typical liquidity trade activity.
 
 Fields include:
 
-ProductType
+✅ProductType
 
-DaysToMaturity
+✅DaysToMaturity
 
-LiquidityBucket_Label (Assigned)
+✅LiquidityBucket_Label (Assigned)
 
-ExpectedBucket
+✅ExpectedBucket
 
-Amount
+✅Amount
 
-SourceSystem
+✅SourceSystem
 
-Data Quality Flags (generated in Python)
+✅Data Quality Flags (generated in Python)
 
 Data Quality Rules Implemented (SQL-Based)
 1. Missing Liquidity Bucket
@@ -86,11 +86,11 @@ Purpose: Executive-level diagnostic of reporting quality.
 
 Visuals:
 
-KPI Cards (Total Records, Issues, Bucket Mismatch Count)
+✅KPI Cards (Total Records, Issues, Bucket Mismatch Count)
 
-Assigned vs Expected Liquidity Bucket Heatmap
+✅Assigned vs Expected Liquidity Bucket Heatmap
 
-Total Records by Product Type
+✅Total Records by Product Type
 
 Insight:
 Significant off-diagonal activity indicates bucket transformation logic issues, particularly for long-dated trades incorrectly mapped into shorter-term buckets.
@@ -105,11 +105,11 @@ Purpose: Detailed investigation and root cause analysis.
 
 Visuals:
 
-Bucket Mismatches by Liquidity Bucket (Bar Chart)
+✅Bucket Mismatches by Liquidity Bucket (Bar Chart)
 
-Trade-Level Exception Table
+✅Trade-Level Exception Table
 
-Product Type Slicer
+✅Product Type Slicer
 
 Insight:
 Misclassifications are concentrated in 31–90D, 91–365D, and >365D expected buckets—suggesting transformation logic or upstream data enrichment weaknesses.
@@ -133,24 +133,24 @@ Missing bucket assignments and missing source systems point to enrichment or lin
 
 These findings would influence:
 
-Liquidity risk measurement
+✅Liquidity risk measurement
 
-LCR / NSFR interpretations
+✅LCR / NSFR interpretations
 
-Supervisory expectations for data integrity
+✅Supervisory expectations for data integrity
 
-Regulatory issue management and remediation planning
+✅Regulatory issue management and remediation planning
 
-Repository Contents
+Repository Contents:
 
-liquidity_data_clean.csv — Clean dataset
+✅liquidity_data_clean.csv — Clean dataset
 
-liquidity_with_dq_flags.csv — DQ-enhanced dataset
+✅liquidity_with_dq_flags.csv — DQ-enhanced dataset
 
-2052A_DQ_Checks.ipynb — Python notebook
+✅2052A_DQ_Checks.ipynb — Python notebook
 
-sql_queries.sql — All DQ SQL rules
+✅sql_queries.sql — All DQ SQL rules (included in Python notebook)
 
-Liquidity_Reporting.pbix — Full Power BI dashboard
+✅Liquidity_Reporting.pbix — Full Power BI dashboard
 
-README.md — Project documentation
+✅README.md — Project documentation
