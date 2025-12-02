@@ -95,10 +95,11 @@ Total Records by Product Type
 Insight:
 Significant off-diagonal activity indicates bucket transformation logic issues, particularly for long-dated trades incorrectly mapped into shorter-term buckets.
 
-## Tab 2 — Trade-Level Data Quality Drilldown
+## 🔎 Tab 2 — Trade-Level Data Quality Drilldown
 
-![Trade-Level Drilldown](images/tab2_overview_dashboard.png
-.png)
+This page provides a deeper look at bucket-level misclassifications and trade-level exceptions, enabling root-cause analysis for FR 2052a reporting.
+
+![Tab 2 Drilldown Dashboard](images/tab2_overview_dashboard.png)
 
 Purpose: Detailed investigation and root cause analysis.
 
