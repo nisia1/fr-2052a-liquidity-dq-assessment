@@ -1,0 +1,102 @@
+AsOfDate,Counterparty,ProductType,MaturityDate,Amount,Currency,LiquidityBucket,CollateralType,SourceSystem,CashFlowType,DaysToMaturity,ExpectedBucket,DQ_NegativeAmount,DQ_MissingBucket,DQ_MissingSourceSystem,DQ_BucketMismatch,DQ_HasIssue
+2025-01-31,CP_017,Repo,2026-02-12,43217.0,GBP,>365D,Govt,LOAN_SYS3,Outflow,377,>365D,False,False,False,False,False
+2025-02-01,CP_003,Securities Lend,2026-08-13,31709.87,USD,>365D,Cash,TREASURY_SYS4,Inflow,558,>365D,False,False,False,False,False
+2025-02-01,CP_009,Reverse Repo,2026-12-01,62772.34,GBP,>365D,Corp,TRADING_SYS2,Outflow,668,>365D,False,False,False,False,False
+2025-02-01,CP_001,Repo,2026-11-14,218949.14,EUR,>365D,MBS,TREASURY_SYS4,Outflow,651,>365D,False,False,False,False,False
+2025-02-02,CP_004,Loan,2027-04-13,59311.11,GBP,>365D,Govt,ALM_SYS1,Inflow,800,>365D,False,False,False,False,False
+2025-01-31,CP_015,Loan,2026-04-11,25473.89,EUR,>365D,,TRADING_SYS2,Inflow,435,>365D,False,False,False,False,False
+2025-02-01,CP_008,Securities Borrow,2026-07-08,69300.3,EUR,>365D,Corp,ALM_SYS1,Inflow,522,>365D,False,False,False,False,False
+2025-02-01,CP_018,Loan,2026-10-16,68720.5,USD,>365D,Cash,TRADING_SYS2,Outflow,622,>365D,False,False,False,False,False
+2025-02-01,CP_014,Deposit,2026-01-07,36174.48,USD,91-365D,,LOAN_SYS3,Inflow,340,91-365D,False,False,False,False,False
+2025-02-01,CP_014,Reverse Repo,2026-02-01,75121.25,GBP,91-365D,MBS,TREASURY_SYS4,Outflow,365,91-365D,False,False,False,False,False
+2025-02-02,CP_008,Securities Borrow,2025-08-11,91874.0,EUR,91-365D,Cash,ALM_SYS1,Inflow,190,91-365D,False,False,False,False,False
+2025-02-02,CP_004,Securities Lend,2026-09-23,33274.54,USD,>365D,MBS,ALM_SYS1,Inflow,598,>365D,False,False,False,False,False
+2025-02-01,CP_020,Repo,2025-11-27,42812.18,GBP,91-365D,Govt,TRADING_SYS2,Inflow,299,91-365D,False,False,False,False,False
+2025-02-01,CP_013,Securities Lend,2025-04-27,120870.26,GBP,31-90D,Govt,TREASURY_SYS4,Outflow,85,31-90D,False,False,False,False,False
+2025-02-01,CP_016,Securities Lend,2027-02-09,58391.28,USD,>365D,Cash,TREASURY_SYS4,Outflow,738,>365D,False,False,False,False,False
+2025-02-01,CP_008,Securities Borrow,2027-04-01,168472.17,USD,>365D,Corp,ALM_SYS1,Outflow,789,>365D,False,False,False,False,False
+2025-01-31,CP_010,Securities Borrow,2025-10-16,33997.91,EUR,91-365D,Cash,TRADING_SYS2,Inflow,258,91-365D,False,False,False,False,False
+2025-02-02,CP_004,Securities Lend,2026-07-25,73665.08,GBP,>365D,,TRADING_SYS2,Outflow,538,>365D,False,False,False,False,False
+2025-02-01,CP_004,Deposit,2025-09-17,71878.95,EUR,91-365D,MBS,TRADING_SYS2,Outflow,228,91-365D,False,False,False,False,False
+2025-02-01,CP_002,Deposit,2026-01-24,50806.98,GBP,91-365D,Govt,TRADING_SYS2,Inflow,357,91-365D,False,False,False,False,False
+2025-01-31,CP_007,Loan,2027-02-23,47103.37,EUR,>365D,Corp,LOAN_SYS3,Inflow,753,>365D,False,False,False,False,False
+2025-02-02,CP_015,Securities Borrow,2026-06-17,15628.64,GBP,>365D,,LOAN_SYS3,Inflow,500,>365D,False,False,False,False,False
+2025-02-01,CP_019,Repo,2025-04-06,58773.14,EUR,31-90D,MBS,ALM_SYS1,Inflow,64,31-90D,False,False,False,False,False
+2025-02-01,CP_020,Securities Lend,2025-05-03,73945.46,USD,91-365D,,LOAN_SYS3,Outflow,91,91-365D,False,False,False,False,False
+2025-01-31,CP_015,Securities Lend,2026-02-06,104164.05,EUR,>365D,,TRADING_SYS2,Inflow,371,>365D,False,False,False,False,False
+2025-01-31,CP_004,Securities Lend,2026-03-31,29930.24,EUR,>365D,Govt,TRADING_SYS2,Inflow,424,>365D,False,False,False,False,False
+2025-01-31,CP_006,Securities Lend,2025-03-12,42090.07,GBP,31-90D,Cash,TRADING_SYS2,Inflow,40,31-90D,False,False,False,False,False
+2025-02-02,CP_006,Securities Borrow,2025-04-04,25295.83,GBP,31-90D,Corp,TRADING_SYS2,Inflow,61,31-90D,False,False,False,False,False
+2025-02-02,CP_006,Securities Lend,2026-07-11,19433.66,USD,>365D,Govt,TRADING_SYS2,Outflow,524,>365D,False,False,False,False,False
+2025-02-02,CP_020,Securities Borrow,2026-11-15,71819.98,GBP,>365D,,ALM_SYS1,Inflow,651,>365D,False,False,False,False,False
+2025-02-01,CP_003,Securities Borrow,2025-10-04,25188.29,USD,91-365D,Cash,TRADING_SYS2,Outflow,245,91-365D,False,False,False,False,False
+2025-02-01,CP_020,Securities Borrow,2026-06-27,37196.97,GBP,>365D,Govt,LOAN_SYS3,Outflow,511,>365D,False,False,False,False,False
+2025-01-31,CP_002,Repo,2025-08-17,70444.3,USD,91-365D,Cash,TRADING_SYS2,Inflow,198,91-365D,False,False,False,False,False
+2025-02-02,CP_011,Reverse Repo,2025-08-28,26006.13,EUR,91-365D,MBS,LOAN_SYS3,Outflow,207,91-365D,False,False,False,False,False
+2025-02-02,CP_007,Securities Lend,2025-07-08,33709.08,EUR,91-365D,Govt,ALM_SYS1,Inflow,156,91-365D,False,False,False,False,False
+2025-01-31,CP_007,Securities Borrow,2025-12-27,56728.32,GBP,91-365D,,ALM_SYS1,Outflow,330,91-365D,False,False,False,False,False
+2025-02-02,CP_013,Reverse Repo,2025-12-20,32859.29,GBP,91-365D,Corp,TRADING_SYS2,Outflow,321,91-365D,False,False,False,False,False
+2025-02-02,CP_001,Deposit,2025-05-03,76914.61,EUR,31-90D,Govt,TRADING_SYS2,Inflow,90,31-90D,False,False,False,False,False
+2025-02-01,CP_007,Loan,2025-10-11,127789.02,USD,91-365D,Govt,LOAN_SYS3,Outflow,252,91-365D,False,False,False,False,False
+2025-02-01,CP_011,Derivatives,2026-04-22,125199.21,GBP,>365D,MBS,TREASURY_SYS4,Outflow,445,>365D,False,False,False,False,False
+2025-02-02,CP_018,Derivatives,2025-03-06,85789.35,GBP,31-90D,Govt,LOAN_SYS3,Inflow,32,31-90D,False,False,False,False,False
+2025-02-01,CP_005,Deposit,2026-03-03,888164.31,USD,>365D,MBS,ALM_SYS1,Inflow,395,>365D,False,False,False,False,False
+2025-02-02,CP_016,Derivatives,2025-11-19,63405.88,GBP,91-365D,Govt,LOAN_SYS3,Inflow,290,91-365D,False,False,False,False,False
+2025-01-31,CP_001,Derivatives,2026-11-13,69669.72,GBP,>365D,MBS,TRADING_SYS2,Outflow,651,>365D,False,False,False,False,False
+2025-01-31,CP_003,Deposit,2026-11-12,68221.7,USD,>365D,Corp,TRADING_SYS2,Outflow,650,>365D,False,False,False,False,False
+2025-01-31,CP_015,Securities Lend,2025-02-17,20670.05,USD,8-30D,MBS,TREASURY_SYS4,Inflow,17,8-30D,False,False,False,False,False
+2025-01-31,CP_018,Securities Lend,2026-03-31,36484.08,USD,>365D,MBS,TREASURY_SYS4,Outflow,424,>365D,False,False,False,False,False
+2025-01-31,CP_008,Securities Borrow,2027-01-20,50171.49,GBP,>365D,Cash,LOAN_SYS3,Inflow,719,>365D,False,False,False,False,False
+2025-02-01,CP_013,Reverse Repo,2025-02-16,65612.3,GBP,8-30D,Govt,TREASURY_SYS4,Inflow,15,8-30D,False,False,False,False,False
+2025-02-01,CP_016,Reverse Repo,2025-09-27,21914.34,USD,91-365D,Cash,TREASURY_SYS4,Inflow,238,91-365D,False,False,False,False,False
+2025-02-02,CP_018,Loan,2025-04-01,30119.98,GBP,31-90D,Govt,TREASURY_SYS4,Outflow,58,31-90D,False,False,False,False,False
+2025-02-01,CP_013,Derivatives,2027-02-10,39334.14,EUR,>365D,,ALM_SYS1,Outflow,739,>365D,False,False,False,False,False
+2025-01-31,CP_004,Repo,2026-03-26,62872.33,GBP,>365D,MBS,LOAN_SYS3,Outflow,419,>365D,False,False,False,False,False
+2025-02-01,CP_002,Reverse Repo,2026-02-23,45719.51,EUR,>365D,,TREASURY_SYS4,Inflow,387,>365D,False,False,False,False,False
+2025-01-31,CP_011,Deposit,2025-06-12,95176.8,GBP,91-365D,Govt,TRADING_SYS2,Outflow,132,91-365D,False,False,False,False,False
+2025-02-01,CP_007,Securities Lend,2025-02-24,15268.37,USD,8-30D,Corp,TREASURY_SYS4,Inflow,23,8-30D,False,False,False,False,False
+2025-02-02,CP_009,Loan,2025-06-20,51756.97,EUR,91-365D,Govt,TRADING_SYS2,Outflow,138,91-365D,False,False,False,False,False
+2025-02-02,CP_016,Securities Borrow,2027-01-28,42399.82,EUR,>365D,Corp,TRADING_SYS2,Outflow,725,>365D,False,False,False,False,False
+2025-01-31,CP_015,Securities Borrow,2025-04-02,93035.85,GBP,31-90D,MBS,TRADING_SYS2,Outflow,61,31-90D,False,False,False,False,False
+2025-02-01,CP_020,Securities Borrow,2026-12-05,91790.05,USD,>365D,Govt,ALM_SYS1,Outflow,672,>365D,False,False,False,False,False
+2025-02-02,CP_006,Repo,2025-07-07,105815.97,EUR,91-365D,MBS,ALM_SYS1,Inflow,155,91-365D,False,False,False,False,False
+2025-01-31,CP_003,Securities Lend,2026-03-15,60760.96,GBP,>365D,MBS,TRADING_SYS2,Outflow,408,>365D,False,False,False,False,False
+2025-01-31,CP_015,Loan,2027-03-12,54660.68,GBP,>365D,,TREASURY_SYS4,Inflow,770,>365D,False,False,False,False,False
+2025-02-01,CP_014,Securities Borrow,2026-08-25,29607.64,GBP,>365D,,TREASURY_SYS4,Inflow,570,>365D,False,False,False,False,False
+2025-02-02,CP_012,Securities Lend,2025-10-12,92677.77,GBP,91-365D,,TRADING_SYS2,Outflow,252,91-365D,False,False,False,False,False
+2025-01-31,CP_003,Securities Borrow,2025-08-24,33595.65,GBP,91-365D,Cash,ALM_SYS1,Inflow,205,91-365D,False,False,False,False,False
+2025-01-31,CP_019,Securities Lend,2025-03-22,47811.9,USD,31-90D,Cash,TREASURY_SYS4,Outflow,50,31-90D,False,False,False,False,False
+2025-02-02,CP_005,Deposit,2026-03-04,33672.8,GBP,>365D,MBS,ALM_SYS1,Inflow,395,>365D,False,False,False,False,False
+2025-02-01,CP_019,Reverse Repo,2026-06-08,43056.7,GBP,>365D,MBS,TRADING_SYS2,Inflow,492,>365D,False,False,False,False,False
+2025-02-01,CP_012,Reverse Repo,2025-10-06,70434.25,GBP,91-365D,Cash,LOAN_SYS3,Outflow,247,91-365D,False,False,False,False,False
+2025-02-02,CP_002,Derivatives,2026-09-12,22354.33,EUR,>365D,,TRADING_SYS2,Outflow,587,>365D,False,False,False,False,False
+2025-02-02,CP_006,Reverse Repo,2026-12-29,51564.41,GBP,>365D,Corp,TREASURY_SYS4,Outflow,695,>365D,False,False,False,False,False
+2025-01-31,CP_009,Securities Lend,2026-11-21,168173.14,GBP,>365D,,TREASURY_SYS4,Outflow,659,>365D,False,False,False,False,False
+2025-02-02,CP_011,Loan,2027-03-24,48919.87,GBP,>365D,Corp,TRADING_SYS2,Inflow,780,>365D,False,False,False,False,False
+2025-02-01,CP_001,Securities Lend,2026-12-03,33554.91,GBP,>365D,,ALM_SYS1,Outflow,670,>365D,False,False,False,False,False
+2025-02-02,CP_006,Repo,2025-05-29,97061.57,USD,91-365D,MBS,ALM_SYS1,Inflow,116,91-365D,False,False,False,False,False
+2025-01-31,CP_012,Deposit,2026-08-11,34852.95,EUR,>365D,Corp,TREASURY_SYS4,Inflow,557,>365D,False,False,False,False,False
+2025-02-01,CP_011,Securities Lend,2026-06-22,39356.84,EUR,>365D,,ALM_SYS1,Outflow,506,>365D,False,False,False,False,False
+2025-02-01,CP_001,Repo,2026-10-30,39981.31,GBP,>365D,MBS,TREASURY_SYS4,Outflow,636,>365D,False,False,False,False,False
+2025-02-02,CP_020,Loan,2026-04-28,31923.88,GBP,>365D,,LOAN_SYS3,Outflow,450,>365D,False,False,False,False,False
+2025-02-02,CP_008,Reverse Repo,2026-02-14,215781.4,GBP,>365D,Cash,TRADING_SYS2,Outflow,377,>365D,False,False,False,False,False
+2025-01-31,CP_020,Securities Lend,2026-04-03,136708.76,GBP,>365D,MBS,LOAN_SYS3,Outflow,427,>365D,False,False,False,False,False
+2025-01-31,CP_015,Derivatives,2025-04-06,43112.88,EUR,31-90D,,LOAN_SYS3,Inflow,65,31-90D,False,False,False,False,False
+2025-02-01,CP_007,Securities Lend,2027-04-01,55260.97,EUR,>365D,Govt,TRADING_SYS2,Outflow,789,>365D,False,False,False,False,False
+2025-01-31,CP_009,Loan,2026-11-01,19612.07,GBP,>365D,MBS,TRADING_SYS2,Inflow,639,>365D,False,False,False,False,False
+2025-02-02,CP_003,Reverse Repo,2027-04-10,60094.32,USD,>365D,,ALM_SYS1,Inflow,797,>365D,False,False,False,False,False
+2025-02-01,CP_005,Loan,2026-11-18,61875.92,USD,>365D,,LOAN_SYS3,Outflow,655,>365D,False,False,False,False,False
+2025-02-02,CP_014,Securities Borrow,2026-10-30,20457.81,USD,>365D,,TREASURY_SYS4,Outflow,635,>365D,False,False,False,False,False
+2025-02-02,CP_014,Securities Lend,2025-12-26,75555.28,GBP,91-365D,Corp,TRADING_SYS2,Outflow,327,91-365D,False,False,False,False,False
+2025-02-01,CP_014,Securities Lend,2027-01-02,98941.06,USD,>365D,,LOAN_SYS3,Inflow,700,>365D,False,False,False,False,False
+2025-01-31,CP_016,Securities Borrow,2025-07-26,18171.91,EUR,91-365D,Corp,ALM_SYS1,Outflow,176,91-365D,False,False,False,False,False
+2025-02-02,CP_006,Loan,2027-01-22,24025.51,GBP,>365D,Corp,TRADING_SYS2,Inflow,719,>365D,False,False,False,False,False
+2025-02-01,CP_009,Derivatives,2026-04-24,31010.59,GBP,>365D,Corp,TRADING_SYS2,Inflow,447,>365D,False,False,False,False,False
+2025-02-01,CP_002,Securities Borrow,2026-01-08,55552.22,USD,91-365D,Cash,LOAN_SYS3,Outflow,341,91-365D,False,False,False,False,False
+2025-01-31,CP_002,Reverse Repo,2025-04-08,51293.6,USD,31-90D,Govt,ALM_SYS1,Inflow,67,31-90D,False,False,False,False,False
+2025-02-01,CP_015,Derivatives,2026-03-04,92034.31,EUR,>365D,Corp,ALM_SYS1,Outflow,396,>365D,False,False,False,False,False
+2025-02-01,CP_006,Securities Borrow,2026-08-30,11952.02,GBP,>365D,,ALM_SYS1,Outflow,575,>365D,False,False,False,False,False
+2025-02-02,CP_017,Deposit,2027-03-06,59540.92,GBP,>365D,Corp,ALM_SYS1,Inflow,762,>365D,False,False,False,False,False
+2025-02-02,CP_003,Securities Borrow,2025-08-04,32764.51,EUR,91-365D,MBS,LOAN_SYS3,Outflow,183,91-365D,False,False,False,False,False
+2025-01-31,CP_001,Loan,2025-04-10,28967.44,USD,31-90D,Govt,TREASURY_SYS4,Outflow,69,31-90D,False,False,False,False,False
+2025-02-02,CP_010,Securities Borrow,2026-01-11,22743.63,USD,91-365D,Govt,TRADING_SYS2,Outflow,343,91-365D,False,False,False,False,False
