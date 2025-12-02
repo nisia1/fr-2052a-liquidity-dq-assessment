@@ -76,7 +76,9 @@ The dashboard contains two pages structured like a real regulatory reporting rev
 
 ## Tab 1 — Liquidity Overview Dashboard
 
-![Liquidity Overview](images/tab1_overview.png)
+![Liquidity Overview](images/tab1_overview_dashboard.png
+.png)
+
 
 This dashboard highlights…
 
@@ -95,7 +97,8 @@ Significant off-diagonal activity indicates bucket transformation logic issues, 
 
 ## Tab 2 — Trade-Level Data Quality Drilldown
 
-![Trade-Level Drilldown](images/tab2_drilldown.png)
+![Trade-Level Drilldown](images/tab2_overview_dashboard.png
+.png)
 
 Purpose: Detailed investigation and root cause analysis.
 
