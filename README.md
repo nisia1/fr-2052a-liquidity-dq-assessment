@@ -39,6 +39,201 @@ Fields include:
 
 ✅Data Quality Flags (generated in Python)
 
+## Data Quality Rules & Regulatory Rationale (FR 2052a)
+
+This project applies governance-grade data quality (DQ) controls aligned to the regulatory intent of **FR 2052a liquidity reporting**. Each rule is designed to protect the **accuracy, credibility, and audit defensibility of the bank’s reported liquidity position under stress**.
+
+---
+
+This project applies governance-grade data quality rules aligned to the regulatory intent of FR 2052a liquidity reporting. Each rule directly protects the accuracy of the bank’s reported liquidity position under stress.
+
+✅ DQ RULE 1: Missing Liquidity Bucket
+Definition: A record where the Liquidity Bucket field is blank or null, meaning the trade is not assigned to a contractual maturity time band.
+
+Regulatory Rationale:
+
+FR 2052a requires all positions to be categorized into standardized maturity buckets (e.g., 0–7D, 8–30D, 31–90D, 91–365D, >365D). These buckets determine when cash is actually available under stress.
+
+⚠️ Risk if This Fails:
+
+Trade is excluded or misrepresented in liquidity calculations
+
+Bank’s liquidity gap profile becomes distorted
+
+Creates regulatory credibility risk
+
+Signals a broken enrichment or transformation step
+
+What This Control Protects:
+
+Liquidity timing accuracy
+
+Stress scenario modeling integrity
+
+Downstream regulatory aggregation
+
+✅ DQ RULE 2: Negative Amount Values
+Definition: Any record where the Amount field is less than zero.
+
+Regulatory Rationale:
+
+FR 2052a measures cash inflows and outflows. Negative balances in assets or improperly signed liabilities can invert liquidity direction, making cash outflows appear as inflows (or vice versa).
+
+⚠️ Risk if This Fails
+
+False liquidity strength
+
+Incorrect net funding position
+
+Potential regulatory misstatement
+
+Indicates sign-flip logic, mapping errors, or broken transformations
+
+What This Control Protects:
+
+Directional cash flow integrity
+
+Net liquidity position accuracy
+
+Model reliability under stress
+
+✅ DQ RULE 3: Missing Source System
+Definition: Records where the Source System field is blank or null, removing traceability back to the originating platform.
+
+Regulatory Rationale:
+
+Regulators require full data lineage for material regulatory reports. Every reported number must be traceable back to its originating system.
+
+⚠️ Risk if This Fails:
+
+Trade cannot be audited or defended
+
+Breaks data governance standards
+
+Weakens regulatory evidence chain
+
+Increases audit finding and MRA risk
+
+What This Control Protects:
+
+Data lineage integrity
+
+Audit defensibility
+
+Regulatory transparency
+
+✅ DQ RULE 4: Liquidity Bucket Mismatch (Expected vs Assigned)
+Definition: Cases where the assigned liquidity bucket does NOT match the expected bucket derived from Days to Maturity logic.
+
+Example:
+
+Days to Maturity = 10 days
+
+Expected Bucket = 8–30D
+
+Assigned Bucket = >365D → Mismatch
+
+Regulatory Rationale:
+
+FR 2052a liquidity reporting is entirely maturity-driven. Buckets determine:
+
+When liquidity becomes available
+
+Survival horizons under stress
+
+Funding gap exposure
+
+⚠️ Risk if This Fails:
+
+Short-term liquidity appears long-term
+
+Long-term funding appears short-term
+
+Causes severe liquidity horizon distortion
+
+This is one of the highest regulatory severity issues
+
+What This Control Protects:
+
+Contractual maturity accuracy
+
+Stress survival horizon metrics
+
+Liquidity risk classification correctness
+
+✅ DQ RULE 5: Composite DQ Failure Flag (DQ_HasIssue)
+Definition: A combined rule that flags any record with one or more integrity failures:
+
+Missing bucket
+
+Negative amount
+
+Missing source system
+
+Bucket mismatch
+
+Regulatory Rationale:
+
+Regulators evaluate total population risk, not just individual errors. This composite flag shows overall data health of the liquidity file.
+
+⚠️ Risk if This Fails:
+
+Indicates systemic reporting weakness
+
+Signals repeatable reporting failures
+
+Requires formal remediation and governance escalation
+
+What This Control Protects:
+
+Enterprise-level reporting reliability
+
+Conformance monitoring
+
+Control effectiveness tracking
+
+✅ Why Maturity Logic Matters (Core Regulatory Truth)
+
+FR 2052a answers one fundamental question: How long can this bank survive under liquidity stress?
+
+That answer is calculated by:
+
+When money comes in
+
+When money goes out
+
+Based strictly on contractual maturity timing
+
+If:
+
+Maturity logic breaks →
+
+Buckets misalign →
+
+Liquidity horizons collapse →
+
+Stress survival analysis becomes invalid
+
+That’s why bucket integrity is a Tier-1 regulatory risk.
+
+✅ Why Buckets Must Match Expected Maturity
+
+Buckets are not cosmetic — they are:
+
+The regulatory survival timeline
+
+The input to liquidity gap analysis
+
+The foundation of stress liquidity disclosure
+
+A single large misclassified repo can:
+
+Inflate short-term liquidity
+
+Mask funding shortfalls
+
+Trigger regulatory action if discovered
+
 Data Quality Rules Implemented (SQL-Based)
 1. Missing Liquidity Bucket
 
