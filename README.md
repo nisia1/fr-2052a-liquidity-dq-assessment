@@ -48,7 +48,9 @@ This project applies governance-grade data quality (DQ) controls aligned to the 
 This project applies governance-grade data quality rules aligned to the regulatory intent of FR 2052a liquidity reporting. Each rule directly protects the accuracy of the bank’s reported liquidity position under stress.
 
 ✅ DQ RULE 1: Missing Liquidity Bucket
-Definition: A record where the Liquidity Bucket field is blank or null, meaning the trade is not assigned to a contractual maturity time band.
+Definition: 
+
+A record where the Liquidity Bucket field is blank or null, meaning the trade is not assigned to a contractual maturity time band.
 
 Regulatory Rationale:
 
@@ -73,7 +75,9 @@ Stress scenario modeling integrity
 Downstream regulatory aggregation
 
 ✅ DQ RULE 2: Negative Amount Values
-Definition: Any record where the Amount field is less than zero.
+Definition: 
+
+Any record where the Amount field is less than zero.
 
 Regulatory Rationale:
 
@@ -98,7 +102,9 @@ Net liquidity position accuracy
 Model reliability under stress
 
 ✅ DQ RULE 3: Missing Source System
-Definition: Records where the Source System field is blank or null, removing traceability back to the originating platform.
+Definition: 
+
+Records where the Source System field is blank or null, removing traceability back to the originating platform.
 
 Regulatory Rationale:
 
@@ -123,7 +129,9 @@ Audit defensibility
 Regulatory transparency
 
 ✅ DQ RULE 4: Liquidity Bucket Mismatch (Expected vs Assigned)
-Definition: Cases where the assigned liquidity bucket does NOT match the expected bucket derived from Days to Maturity logic.
+Definition: 
+
+Cases where the assigned liquidity bucket does NOT match the expected bucket derived from Days to Maturity logic.
 
 Example:
 
@@ -162,7 +170,9 @@ Stress survival horizon metrics
 Liquidity risk classification correctness
 
 ✅ DQ RULE 5: Composite DQ Failure Flag (DQ_HasIssue)
-Definition: A combined rule that flags any record with one or more integrity failures:
+Definition: 
+
+A combined rule that flags any record with one or more integrity failures:
 
 Missing bucket
 
