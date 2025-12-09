@@ -289,7 +289,7 @@ Purpose: Executive-level diagnostic of reporting quality.
 
 Visuals:
 
-✅KPI Cards (Total Records, Issues, Bucket Mismatch Count)
+✅KPI Cards (Total Records, Number of DQ Issues, Percentage DQ Issues)
 
 ✅Assigned vs Expected Liquidity Bucket Heatmap
 
