@@ -310,7 +310,7 @@ Purpose: Detailed investigation and root cause analysis.
 
 Visuals:
 
-✅Bucket Mismatches by Liquidity Bucket (Bar Chart)
+✅Bucket Mismatches by Liquidity Bucket
 
 ✅Trade-Level Exception Table
 
