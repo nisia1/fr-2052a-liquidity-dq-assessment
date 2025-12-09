@@ -295,6 +295,8 @@ Visuals:
 
 ✅Total Records by Product Type
 
+✅ Mismatch Rate by Product Type
+
 Insight:
 Significant off-diagonal activity indicates bucket transformation logic issues, particularly for long-dated trades incorrectly mapped into shorter-term buckets.
 
