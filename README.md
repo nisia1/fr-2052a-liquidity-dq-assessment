@@ -41,11 +41,9 @@ Fields include:
 
 ## Data Quality Rules & Regulatory Rationale (FR 2052a)
 
-This project applies governance-grade data quality (DQ) controls aligned to the regulatory intent of **FR 2052a liquidity reporting**. Each rule is designed to protect the **accuracy, credibility, and audit defensibility of the bank’s reported liquidity position under stress**.
+This project applies governance-grade data quality (DQ) rules aligned to the regulatory intent of FR 2052a liquidity reporting. Each rule directly protects the accuracy of the bank’s reported liquidity position under stress.
 
 ---
-
-This project applies governance-grade data quality rules aligned to the regulatory intent of FR 2052a liquidity reporting. Each rule directly protects the accuracy of the bank’s reported liquidity position under stress.
 
 ✅ DQ RULE 1: Missing Liquidity Bucket
 Definition: 
